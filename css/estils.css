@@ -13,8 +13,8 @@ body{
 #container{
   display:grid;
   border: px solid red;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: calc(40.33vh - 10px) calc(3.33vh - 10px) calc(33.33vh - 10px);
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: calc(45.33vh - 10px) calc(3.33vh - 10px) calc(33.33vh - 10px);
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
@@ -32,44 +32,9 @@ body{
   border-radius: 5px;
 }
 
-#container .celda3{
-  padding: 9px;
-  background-color:#97bc27;
-  border-radius: 5px;
+ul:hover{
+  color: coral;
 }
-
-#container .celda4{
-  padding: 9px;
-  background-color:#ff9800;
-  border-radius: 5px;
-}
-
-#container .celda5{
-  padding: 9px;
-  background-color:#ff3700;
-  border-radius: 5px;
-}
-
-#container .celda6{
-  padding: 9px;
-  background-color:#459800;
-  border-radius: 5px;
-}
-
-#container .celda7{
-  padding: 9px;
-  background-color:#ff98ff;
-  border-radius: 5px;
-}
-
-#container .celda8{
-  padding: 9px;
-  background-color:#023300;
-  border-radius: 5px;
-}
-
-#container .celda9{
-  padding: 9px;
-  background-color:#0f2255;
-  border-radius: 5px;
+ol:hover{
+  
 }
